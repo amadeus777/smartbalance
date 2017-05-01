@@ -1114,7 +1114,7 @@
             "showTitle": false,
             "showSubtitle": false,
             "firstType": "hidden",
-            "showButtons": false,
+            "showButtons": true,
             "secondType": "bg-primary",
             "thirdType": "hidden",
             "fourthType": "hidden"
