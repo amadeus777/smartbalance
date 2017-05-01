@@ -453,12 +453,15 @@ h6,
 #features2-c .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #553982;
 }
+#form1-x .form-control-label {
+  color: #232323;
+}
 #header3-f .mbr-section-title,
 #header3-f .mbr-section-subtitle {
   text-align: center;
 }
 #header3-f H3 {
-  color: #220663;
+  color: #ffffff;
 }
 #features1-i .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #d14841;
