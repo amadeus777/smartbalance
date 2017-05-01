@@ -1,12 +1,12 @@
 {
   "settings": {
     "name": "Гироскутеры",
-    "currentPage": "index.html",
+    "currentPage": "tovar.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#000000",
+        "primaryColor": "#d14841",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#2b0680",
@@ -16,13 +16,13 @@
         "subtitleFont": "Lora",
         "textFont": "Raleway",
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 19,
+    "uniqCompNum": 33,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -72,7 +72,7 @@
               "src": "@PROJECT_PATH@/assets/images/-128x70.png",
               "width": 128,
               "active": true,
-              "link": "",
+              "link": "index.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -186,9 +186,10 @@
               "name": "like",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title1": "&nbsp;Высокое качество",
@@ -202,9 +203,10 @@
               "name": "sale",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title2": "Низкие цены",
@@ -218,9 +220,10 @@
               "name": "gift",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title3": "Подарок каждому покупателю",
@@ -234,9 +237,10 @@
               "name": "setting",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title4": "Гарантийное обслуживание",
@@ -328,7 +332,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-2-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-2-2000x1500.jpg",
-                "caption": "<b>Желтая молния</b>",
+                "caption": "<b><a href=\"tovar.html\">Желтая молния</a></b>",
                 "active": false
               },
               {
@@ -336,8 +340,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-800x600-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-800x600.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -346,8 +350,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-7-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -356,8 +360,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-6-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-6-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -429,13 +433,23 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-2000x1500.jpg",
                 "caption": "<b>Голубой комуфляж</b>",
+                "active": false
+              },
+              {
+                "tags": "Коляски",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-6-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-6-2000x1500.jpg",
+                "caption": "Type caption here",
                 "active": true
               }
             ],
             "spacing": "1",
             "showText": true,
             "filter": true,
-            "bgColor": "#553982",
+            "bgColor": "#786497",
             "filterBgColor": false,
             "fullWidth": false,
             "showBullets": true
@@ -515,7 +529,7 @@
           "title1": "УСЛОВИЯ ОПЛАТЫ",
           "subtitle1": "",
           "caption1": "Условия, условия условия&nbsp;условия условия &nbsp;условия условия условия условия условия условия условия",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
           "media2": {
             "iconFont": {
               "active": true,
@@ -529,7 +543,7 @@
           "title2": "УСЛОВИЯ ДОСТАВКИ",
           "subtitle2": "",
           "caption2": "Доставка доставка&nbsp;доставка&nbsp;доставка&nbsp;доставка&nbsp;доставка&nbsp;доставка&nbsp;доставка&nbsp;доставка&nbsp;доставка&nbsp;доставка",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
           "media3": {
             "iconFont": {
               "active": true,
@@ -723,9 +737,30 @@
               "font-size": "16px"
             },
             ".mbr-cards-col:nth-child(odd) .card-subtitle": {
-              "font-size": "16px"
+              "font-size": "16px",
+              "color": "#ffffff"
             }
           }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-j",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Как нас найти",
+          "meta": ""
         },
         {
           "_tags": [
@@ -734,17 +769,17 @@
           "_name": "contacts2",
           "_styles": {
             "P": {
-              "color": "#000000",
+              "color": "#ffffff",
               "font-size": "14px"
             },
             "UL": {
               "color": "#ffffff"
             },
             "SPAN": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "STRONG": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           },
           "_anchor": "contacts2-h",
@@ -754,7 +789,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-1-2000x1333_2.jpg",
-            "bgColor": "#ffffff",
+            "bgColor": "#4c318b",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": "0.6",
@@ -767,7 +802,397 @@
             }
           },
           "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Адрес</b></span></font><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font><br>050036, Казахстан, г. Алматы м-он \"Мамыр - 4\" , <br>дом 297-а, 4, 5 этаж&nbsp;<br><br><br>\n<strong>Контакты</strong><br><strong><br></strong><b>Tel</b>:+7(727) 356 28 91, +7(727) 356 28 92<br><b>Fax:</b>&nbsp;+7(727) 356 28 93 <br><br><b>E-mail</b>: info@nexia.kz&nbsp;<br>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Меню</strong></p><ul><font color=\"#bcbcbc\"><span style=\"font-size: 14px; line-height: 25px;\"><a href=\"index.html#features1-p\" class=\"text-primary\">О Компании</a></span></font><br><span style=\"font-size: 14px; line-height: 25px;\">Услуги</span><br><span style=\"font-size: 14px; line-height: 25px;\">Новости</span></ul>"
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Меню</strong></p><ul><font color=\"#bcbcbc\"><span style=\"font-size: 14px; line-height: 25px;\"><a href=\"index.html#features1-p\" class=\"text-white\">О Компании</a></span></font><br><span style=\"font-size: 14px; line-height: 25px;\">Услуги</span><br><span style=\"font-size: 14px; line-height: 25px;\">Новости</span></ul>"
+        }
+      ]
+    },
+    "order.html": {
+      "settings": {
+        "title": "Заказ",
+        "meta_descr": "Оформление заказа"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            "STRONG": {
+              "color": "#ffffff"
+            },
+            "SPAN": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "contacts1-u",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-2000x1125.png",
+            "bgColor": "#3c1596",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0",
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/-128x70.png",
+              "width": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<br><br>",
+          "text2": "<strong>Контакты</strong><br><strong><br></strong>Tel: +7 (707) 493 95 91&nbsp;<br><br><br>",
+          "text3": "<font face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Режим работы</b></span></font><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/\"><br></a><a class=\"text-white\" href=\"https://mobirise.com/\">П</a>рием заказов: Пн-Вс с 9.00 - 22.00<br>\n<a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\">Д</a>оставка: Пн-Вс с 10 - 22.00<br><br>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-w",
+          "_params": {
+            "labelsColor": "#000000",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1123.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "ФОРМА ЗАКАЗА",
+          "subtitle": "ОСТАВЬТЕ СВОЙ НОМЕР ТЕЛЕФОНА, МЫ ВАМ ПЕРЕЗВОНИМ И ПРИМЕМ ЗАКАЗАЗ",
+          "form": {
+            "action": "m3422810@gmail.com",
+            "alerts": {
+              "success": "Спасибо!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": false,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Укажите свой номер телефона"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Укажите название модели"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ОТПРАВИТЬ</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            "SMALL": {
+              "color": "#7c7c7c"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            "UL": {
+              "color": "#ffffff"
+            },
+            "SPAN": {
+              "color": "#ffffff"
+            },
+            "STRONG": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "contacts2-v",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-1-2000x1333_2.jpg",
+            "bgColor": "#4c318b",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#2b0680",
+            "googleMap": {
+              "address": "050036, Казахстан, г. Алматы м-он \"Мамыр - 4\" , \nдом 297-а, 4, 5 этаж ",
+              "placeId": "ChIJbyZUGTpogzgRsM3-LVbeTSk",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Адрес</b></span></font><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font><br>050036, Казахстан, г. Алматы м-он \"Мамыр - 4\" , <br>дом 297-а, 4, 5 этаж&nbsp;<br><br><br>\n<strong>Контакты</strong><br><strong><br></strong><b>Tel</b>:+7(727) 356 28 91, +7(727) 356 28 92<br><b>Fax:</b>&nbsp;+7(727) 356 28 93 <br><br><b>E-mail</b>: info@nexia.kz&nbsp;<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Меню</strong></p><ul><font color=\"#bcbcbc\"><span style=\"font-size: 14px; line-height: 25px;\"><a href=\"index.html#features1-p\" class=\"text-white\">О Компании</a></span></font><br><span style=\"font-size: 14px; line-height: 25px;\">Услуги</span><br><span style=\"font-size: 14px; line-height: 25px;\">Новости</span></ul>"
+        }
+      ]
+    },
+    "tovar.html": {
+      "settings": {
+        "title": "Карточка товара",
+        "meta_descr": "Описание товара"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            "STRONG": {
+              "color": "#ffffff"
+            },
+            "SPAN": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "contacts1-l",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-2000x1125.png",
+            "bgColor": "#3c1596",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0",
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/-128x70.png",
+              "width": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<br><br>",
+          "text2": "<strong>Контакты</strong><br><strong><br></strong>Tel: +7 (707) 493 95 91&nbsp;<br><br><br>",
+          "text3": "<font face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Режим работы</b></span></font><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/\"><br></a><a class=\"text-white\" href=\"https://mobirise.com/\">П</a>рием заказов: Пн-Вс с 9.00 - 22.00<br>\n<a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\">Д</a>оставка: Пн-Вс с 10 - 22.00<br><br>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/-2000x1697.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#eb6b56",
+            "showBullets": false
+          },
+          "_anchor": "slider3-r",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "pricing-table1",
+          "_styles": {
+            ".mbr-plan-header, .mbr-plan-body": {
+              "background-color": "#f4f4f4"
+            },
+            "ul, .mbr-plan-title, .mbr-price-value, .mbr-price-figure, .mbr-price-term": {
+              "color": "#28262b"
+            },
+            ".mbr-plan": {
+              "border-color": "#e8e8e8"
+            },
+            ".mbr-plan .list-group-item": {
+              "border-color": "#cfcfcf"
+            },
+            ".mbr-plan-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-price-figure": {
+              "color": "#ffffff"
+            },
+            ".mbr-price-term": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-t",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showSubtitle": false,
+            "firstType": "hidden",
+            "showButtons": false,
+            "secondType": "bg-primary",
+            "thirdType": "hidden",
+            "fourthType": "hidden"
+          },
+          "title": "PRICING TABLE",
+          "subtitle": "Pricing table with four columns and solid color background.",
+          "label1": "HOT!",
+          "title1": "STANDARD",
+          "subtitle1": "Description",
+          "currency1": "$",
+          "price1": "0",
+          "period1": "/mo.",
+          "description1": "More details",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "label2": "HOT!",
+          "title2": "SMART BALANCE 6,5 газета",
+          "subtitle2": "",
+          "currency2": "",
+          "price2": "38000",
+          "period2": "&nbsp;тг.",
+          "description2": "More details",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">SMART BALANCE 6,5 газета</li><li class=\"list-group-item\">6,5 дюймов Характеристика:</li><li class=\"list-group-item\">Вес - 9,5 кг</li><li class=\"list-group-item\">Радиус разворота - 360 градусов</li><li class=\"list-group-item\">Грузоподъемность - 20-100 кг</li><li class=\"list-group-item\">Максимальный угол подъема - 15 градусов</li><li class=\"list-group-item\">Диаметр колес - 6.5 дюйм</li><li class=\"list-group-item\">Скорость - 15-20 км/ч</li><li class=\"list-group-item\">Время зарядки - 2-2.5 часа</li><li class=\"list-group-item\">Одной зарядки хватает на 2.5-3.5 часов или 15-20 км</li><li class=\"list-group-item\">LED подсветка&nbsp;</li><li class=\"list-group-item\">Bluetooth колонки (возможность прослушивания музыки, подключив телефон к гироскутеру)</li><li class=\"list-group-item\">Батарея 36 Вольт, 4.400 МАч литий-ионная (усиленные батареи Samsung или Power battery pack)</li><li class=\"list-group-item\">15 GB bandwidt<br><br></li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ЗАКАЗАТЬ</a>",
+          "label3": "HOT!",
+          "title3": "PREMIUM",
+          "subtitle3": "Description",
+          "currency3": "$",
+          "price3": "0",
+          "period3": "/mo.",
+          "description3": "More details",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "label4": "HOT!",
+          "title4": "ULTIMATE",
+          "subtitle4": "Description",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "/mo.",
+          "description4": "More details",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            "UL": {
+              "color": "#ffffff"
+            },
+            "SPAN": {
+              "color": "#ffffff"
+            },
+            "STRONG": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "contacts2-m",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-1-2000x1333_2.jpg",
+            "bgColor": "#4c318b",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#2b0680",
+            "googleMap": {
+              "address": "050036, Казахстан, г. Алматы м-он \"Мамыр - 4\" , \nдом 297-а, 4, 5 этаж ",
+              "placeId": "ChIJbyZUGTpogzgRsM3-LVbeTSk",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Адрес</b></span></font><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font><br>050036, Казахстан, г. Алматы м-он \"Мамыр - 4\" , <br>дом 297-а, 4, 5 этаж&nbsp;<br><br><br>\n<strong>Контакты</strong><br><strong><br></strong><b>Tel</b>:+7(727) 356 28 91, +7(727) 356 28 92<br><b>Fax:</b>&nbsp;+7(727) 356 28 93 <br><br><b>E-mail</b>: info@nexia.kz&nbsp;<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Меню</strong></p><ul><font color=\"#bcbcbc\"><span style=\"font-size: 14px; line-height: 25px;\"><a href=\"index.html#features1-p\" class=\"text-white\">О Компании</a></span></font><br><span style=\"font-size: 14px; line-height: 25px;\">Услуги</span><br><span style=\"font-size: 14px; line-height: 25px;\">Новости</span></ul>"
         }
       ]
     }
